@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>helloBubblegum</title>
+	<style type="text/css">
+ 		#muSic{}
+		#hello {width: 300px; height: 141px; position: absolute; left: 300px; top: 200px; z-index: 6;}
+
+		#circle{ width: 100px; height:100px; background: blue; border-radius: 50%; opacity: 0.35;
+			animation: drop 10s infinite; position: absolute; } 
+		#bub0 {width: 250px; height: 141px; position: absolute; left: 10px; top: 20px; 
+				animation:bub0 1s infinite; animation-delay: 1s;}
+		#bub1 {width: 250px; height: 141px; position: absolute; left: 160px; top: 120px;}
+		#bub2 {width: 250px; height: 141px; position: absolute; left: 310px; top: 220px;}
+		#bub3 {width: 250px; height: 141px; position: absolute; left: 460px; top: 320px;}
+		#bub4 {width: 250px; height: 141px; position: absolute; left: 610px; top: 420px;}
+		
+		#bub5 {width:120px; height: 80px; position: absolute; left: 80px; top: 250px; z-index: 3; opacity: 0.8;}
+		#bub50 {width:120px; height: 80px; position: absolute; left: 80px; top: 330px; z-index: 3; opacity: 0.8;}
+		#bub51 {width:120px; height: 80px; position: absolute; left: 80px; top: 410px; z-index: 3; opacity: 0.8;}
+		#bub52 {width:120px; height: 80px; position: absolute; left: 80px; top: 490px; z-index: 3; opacity: 0.8;}
+
+
+		#bub6 {width:360px; height: 240px; position: absolute; left: 450px; top: 70px; z-index: 3; opacity: 0.8;}
+
+		#bub7 {width:250px; height: 137px; position: absolute; left: 230px; top: 350px; z-index: 4; opacity: 0.7;}
+		#bub71 {width:250px; height: 137px; position: absolute; left: 330px; top: 450px; z-index: 4; opacity: 0.7;}
+		#bub72 {width:250px; height: 137px; position: absolute; left: 430px; top: 550px; z-index: 4; opacity: 0.7;}
+
+		#bub8 {width:160px; height: 90px; position: absolute; left: 810px; top: 0px; z-index: 5; opacity: 0.7;}
+		#bub9 {width:160px; height: 90px; position: absolute; left: 810px; top: 90px; z-index: 5; opacity: 0.7;}
+		#bub10 {width:160px; height: 90px; position: absolute; left: 810px; top: 180px; z-index: 5; opacity: 0.7;}
+		#bub11 {width:160px; height: 90px; position: absolute; left: 810px; top: 270px; z-index: 5; opacity: 0.7;}
+		#bub12 {width:160px; height: 90px; position: absolute; left: 810px; top: 360px; z-index: 5; opacity: 0.7;}
+		#bub13 {width:160px; height: 90px; position: absolute; left: 810px; top: 450px; z-index: 5; opacity: 0.7;}
+		#bub14 {width:160px; height: 90px; position: absolute; left: 810px; top: 540px; z-index: 5; opacity: 0.7;}
+
+		#bub15 {width:82px; height: 54px; position: absolute; left: 970px; top: 0px; z-index: 5; opacity: 0.9;}
+		#bub16 {width:82px; height: 54px; position: absolute; left: 970px; top: 54px; z-index: 5; opacity: 0.9;}
+		#bub17 {width:82px; height: 54px; position: absolute; left: 970px; top: 108px; z-index: 5; opacity: 0.9;}
+		#bub18 {width:82px; height: 54px; position: absolute; left: 970px; top: 162px; z-index: 5; opacity: 0.9;}
+		#bub19 {width:82px; height: 54px; position: absolute; left: 970px; top: 216px; z-index: 5; opacity: 0.9;}
+		#bub20 {width:82px; height: 54px; position: absolute; left: 970px; top: 270px; z-index: 5; opacity: 0.9;}
+		#bub21 {width:82px; height: 54px; position: absolute; left: 970px; top: 324px; z-index: 5; opacity: 0.9;}
+		#bub22 {width:82px; height: 54px; position: absolute; left: 970px; top: 378px; z-index: 5; opacity: 0.9;}
+		#bub23 {width:82px; height: 54px; position: absolute; left: 970px; top: 432px; z-index: 5; opacity: 0.9;}
+		#bub24 {width:82px; height: 54px; position: absolute; left: 970px; top: 486px; z-index: 5; opacity: 0.9;}
+		#bub25 {width:82px; height: 54px; position: absolute; left: 970px; top: 540px; z-index: 5; opacity: 0.9;}
+		#bub26 {width:82px; height: 54px; position: absolute; left: 970px; top: 594px; z-index: 5; opacity: 0.9;}
+
+		#young {width: 0%; height: 0%; position: absolute; z-index: 5; left: 350px; top: 250px;}
+
+		@keyframes drop {
+			0% 100%{margin-top: 0;}
+			50% {margin-top: 200px;}
+
+		@keyframes bub0 {
+			0% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+
+
+		
+		
+
+
+		}
+	</style>
+</head>
+<body>
+	<div id= "hello">
+		<h1>Hello. bubble gum.</h1>
+	</div>
+	<div id="div1"></div>
+	<div id="circle"></div>
+
+	
+		<img id=bub0 src="bubbleGum.gif">
+		<img id=bub1 src="bubbleGum.gif">
+		<img id=bub2 src="bubbleGum.gif">
+		<img id=bub3 src="bubbleGum.gif">
+		<img id=bub4 src="bubbleGum.gif">
+		
+		<img id=bub5 src="bub2.gif">
+		<img id=bub50 src="bub2.gif">
+		<img id=bub51 src="bub2.gif">
+		<img id=bub52 src="bub2.gif">
+
+
+
+
+		<img id=bub6 src="bub2.gif">
+
+		<img id=bub7 src="bub3.gif">
+		<img id=bub71 src="bub3.gif">
+		<img id=bub72 src="bub3.gif">
+	
+		<img id=bub8 src="bub4.gif">
+		<img id=bub9 src="bub4.gif">
+		<img id=bub10 src="bub4.gif">
+		<img id=bub11 src="bub4.gif">
+		<img id=bub12 src="bub4.gif">
+		<img id=bub13 src="bub4.gif">
+		<img id=bub14 src="bub4.gif">
+
+		<img id=bub15 src="bub5.gif">
+		<img id=bub16 src="bub5.gif">
+		<img id=bub17 src="bub5.gif">
+		<img id=bub18 src="bub5.gif">
+		<img id=bub19 src="bub5.gif">
+		<img id=bub20 src="bub5.gif">
+		<img id=bub21 src="bub5.gif">
+		<img id=bub22 src="bub5.gif">
+		<img id=bub23 src="bub5.gif">
+		<img id=bub24 src="bub5.gif">
+		<img id=bub25 src="bub5.gif">
+		<img id=bub26 src="bub5.gif">
+		
+		<img id="young" src="young.gif">
+
+		<audio id="muSic.mp3">
+			<source src="muSic.mp3" type="audio/mpeg">
+		</audio>
+
+
+	<script type="text/javascript">
+		var toggle = "off"
+		hello.onclick = function(){
+			if(toggle == "off"){
+				toggle = "on";
+				
+				young.style.width = "610px";
+				young.style.height = "281px";
+				document.body.style.backgroundColor = "#FF5A91";
+				muSic.play();
+			}else{
+				toggle = "off";
+
+				young.style.width = "0%";
+				young.style.height = "0%";
+				document. body. style. backgroundColor = "white";
+				muSic.load();
+			}
+		}
+	</script>
+	<script type="text/javascript">
+
+		
+
+
+		var total = 0;
+		for(var i = 0; i<50; i++){
+			var c = document.getElementById("circle");
+			var newc = c.cloneNode(true);
+			newc.style.scale = randomBH(0.3,2) ;
+			var g = Math.random()*400;
+			newc.style.width = g + "px";
+			newc.style.height = g + "px";
+			newc.style.left = Math.random()*window.innerWidth + "px";
+			newc.style.top = Math.random()*window.innerHeight + "px";
+			newc.style.animationDuration = randomBH(5,15) + "s";
+			newc.style.background = randomColor();
+
+			
+
+			document.body.appendChild(newc);
+			console.log(window.innerWidth, window.innerHeight);
+		}
+
+
+
+
+		function randomColor(){
+			var r = Math.random()*255
+			var g = 0
+			var b = Math.random()*255
+			var text = "rgb(" + r + "," + g + "," + b + ")";
+			return text;
+		}
+
+
+		function randomBH(min, max) {
+			min = Math.ceil(min);
+			max = Math.floor(max);
+			return Math.floor(Math.random() * (max - min +1)) + min;
+		}
+
+		
+
+	</script>
+</body>
+</html>
